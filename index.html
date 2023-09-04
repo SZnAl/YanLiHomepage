@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+			rel="stylesheet"
+		/>
+
+		<!-- <link rel="stylesheet" href="css/icon-font.css" >
+    <link rel="stylesheet" href="css/style.css"> -->
+
+		<link rel="stylesheet" href="css/style.min.css" />
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+		<title>研理检测</title>
+	</head>
+	<body>
+		<div class="navigation">
+			<!-- checkbox hack -->
+			<!-- 使用伪类 :checked 复选框被选择的时，展示全屏的背景-->
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+			<!-- <label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+			</label> -->
+
+			<!-- <div class="navigation__background">&nbsp;</div> -->
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"
+							><span>01</span> About Natours</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"
+							><span>02</span> Your benfits</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"
+							><span>03</span> Popular tours</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>04</span> Stories</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>05</span> Book now</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<header class="header">
+			<div class="header__logo-box">
+				<img src="./img/logo-white.png" alt="Logo" class="header__logo" />
+			</div>
+
+			<div class="header__text-box">
+				<h1 class="heading-primary">
+					<span class="heading-primary--main">山东研理检测</span>
+					<!-- <span class="heading-primary--sub">is where life happens</span> -->
+				</h1>
+				<!-- <a href="#section-tours" alt="button" class="btn btn--white btn--animated">discover our tours</a> -->
+			</div>
+		</header>
+
+		<main>
+			<section class="section-about">
+				<div class="u-center-text u-margin-bottom-big">
+					<!-- <h1 class="heading-secondary">常用设备</h1> -->
+				</div>
+
+				<div class="row">
+					<div class="col-1-of-2">
+						<!-- <h3 class="heading-tertiary u-margin-bottom-small">专注/专业</h3> -->
+						<p class="paragraphy">
+							山东研理检测公司,是一所致力于服务科研测试的平台,主要经营方向是测试
+							加工 分析
+							等业务,专门为国内高端科研人才提供精准服务的一家公司,以高效,求真,满足客户要求为基准原则,用专业的水平去缩短研发时间和研发风险
+						</p>
+
+						<!-- <h3 class="heading-tertiary u-margin-bottom-small">
+							求真/求知/求效
+						</h3> -->
+						<p class="paragraphy">
+							SEM、XRD、FTIR、XPS、TEM、LC-MS、ICP、TG-DSC测试内容涵盖了材料、化工、物理、环境、生物、土木、药学等专业学科。
+						</p>
+						<p class="paragraphy">
+							以专业的人才团队，高质量的测试技术，齐全的设备资源,为一线科研工作者提供强有力的支持.针对不同测试要求的具体设备型号做到,求真,求知,求效的三个标准.
+						</p>
+
+						<!-- <a href="#" class="btn-text">Learn more &rarr;</a> -->
+					</div>
+					<div class="col-1-of-2">
+						<div class="composition">
+							<img
+								srcset="img/nat-1-large.jpg"
+								sizes="(max-width: 56.25em) 17vw, (max-width: 37.5em) 25vw, 300px"
+								src="img/nat-1-large.jpg"
+								class="composition__photo composition__photo--p1"
+								alt="Photo 1"
+							/>
+
+							<img
+								srcset="img/nat-2-large.jpg"
+								sizes="(max-width: 56.25em) 17vw, (max-width: 37.5em) 25vw, 300px"
+								src="img/nat-2-large.jpg"
+								class="composition__photo composition__photo--p2"
+								alt="Photo 2"
+							/>
+
+							<img
+								srcset="img/nat-3-large.jpg"
+								sizes="(max-width: 56.25em) 17vw, (max-width: 37.5em) 25vw, 300px"
+								src="img/nat-3-large.jpg"
+								class="composition__photo composition__photo--p3"
+								alt="Photo 3"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-features">
+				<div class="row">
+					<div class="col-1-of-4">
+						<div class="feature-box">
+							<!-- <i class="feature-box__icon icon-basic-world"></i> -->
+							<img
+								src="./img/njlg.png"
+								class="feature-box__img"
+								style="width: 7rem; height: 7rem"
+							/>
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								南京理工大学
+							</h3>
+							<p class="feature-box__text">
+								2022起我司与南京理工大学建立合作关系,主要检测服务为水系电池、原位电化学测试方向的研究,合作至今取得重大研发成果,对于新能源材料方向提供巨大助力.
+							</p>
+						</div>
+					</div>
+					<div class="col-1-of-4">
+						<div class="feature-box">
+							<!-- <i class="feature-box__icon icon-basic-compass"></i> -->
+							<img
+								src="./img/zjdx.jpeg"
+								class="feature-box__img"
+								style="width: 7rem; height: 7rem"
+							/>
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								浙江大学热能研究所
+							</h3>
+							<p class="feature-box__text">
+								2022年初与浙江大学热能研究所签署原位电催化方向的研发合作,检测项目有:原位电化学红外,原位电化学拉曼,原为电池充放电等,我司秉承测试服务实时对接,测试过程充分参与,及时调整实验中情况,受到了研发人员的一致好评.
+							</p>
+						</div>
+					</div>
+					<div class="col-1-of-4">
+						<div class="feature-box">
+							<!-- <i class="feature-box__icon icon-basic-map"></i> -->
+							<img
+								src="./img/tjdx.jpg"
+								class="feature-box__img"
+								style="width: 7rem; height: 7rem"
+							/>
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								天津大学材料学院
+							</h3>
+							<p class="feature-box__text">
+								2020年我司与天津大学材料学院签署合作协议,实现了公司与高校之间设备资源共享,从基础表征类测试到高端设备资源的使用率上均有提升,周期、质量都远高于旧时期的预约模式,同时满足企业单位研发项目,报告真实权威.
+							</p>
+						</div>
+					</div>
+					<div class="col-1-of-4">
+						<div class="feature-box">
+							<!-- <i class="feature-box__icon icon-basic-heart"></i> -->
+							<img
+								src="./img/zky.jpeg"
+								class="feature-box__img"
+								style="width: 7rem; height: 7rem"
+							/>
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								中科院长春应用化学研究所
+							</h3>
+							<p class="feature-box__text">
+								2022年我司与中科院长春应用化学研究所建立深度合作,合作项目针对更正科研难题,高端测试,原位测试等,在设备技术上实行一站式服务,从制备到测试完成,客户实时沟通,一一落实测试进度.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-tours" id="section-tours">
+				<div class="u-center-text u-margin-bottom-big">
+					<h1 class="heading-secondary">常 用 检 测</h1>
+				</div>
+
+				<div class="row">
+					<div class="col-1-of-3">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<div class="card__picture card__picture--1">&nbsp;</div>
+
+								<h4 class="card__heading">
+									<span class="card__heading-span card__heading-span--1">
+										SEM
+									</span>
+								</h4>
+
+								<div class="card__details">
+									<ul>
+										<li>2-3个工作日</li>
+										<li>云视频</li>
+										<!-- <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Difficulty: easy</li> -->
+									</ul>
+								</div>
+							</div>
+							<div class="card__side card__side--back card__side--back-1">
+								<div class="card__cta">
+									<div class="card__price-box">
+										<p class="card__price-only">价格</p>
+										<p class="card__price-value">100/样</p>
+									</div>
+									<!-- <a href="#popup" class="btn btn--white">Book Me!</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-1-of-3">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<div class="card__picture card__picture--2">&nbsp;</div>
+
+								<h4 class="card__heading">
+									<span class="card__heading-span card__heading-span--2">
+										XRD
+									</span>
+								</h4>
+
+								<div class="card__details">
+									<ul>
+										<li>2-3个工作日</li>
+										<li>小角度 掠入角</li>
+										<!-- <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: medium</li> -->
+									</ul>
+								</div>
+							</div>
+							<div class="card__side card__side--back card__side--back-2">
+								<div class="card__cta">
+									<div class="card__price-box">
+										<p class="card__price-only">价格</p>
+										<p class="card__price-value">50/样起</p>
+									</div>
+									<!-- <a href="#popup" class="btn btn--white">Book Me!</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-1-of-3">
+						<div class="card">
+							<div class="card__side card__side--front">
+								<div class="card__picture card__picture--3">&nbsp;</div>
+
+								<h4 class="card__heading">
+									<span class="card__heading-span card__heading-span--3">
+										ICP
+									</span>
+								</h4>
+
+								<div class="card__details">
+									<ul>
+										<li>2-3个工作日</li>
+										<li>前处理</li>
+										<!-- <li>3 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: hard</li> -->
+									</ul>
+								</div>
+							</div>
+							<div class="card__side card__side--back card__side--back-3">
+								<div class="card__cta">
+									<div class="card__price-box">
+										<p class="card__price-only">价格</p>
+										<p class="card__price-value">50/起</p>
+									</div>
+									<!-- <a href="#popup" class="btn btn--white">Book Me!</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--green">Discover all tours</a>
+        </div> -->
+			</section>
+
+			<section class="section-stories">
+				<div class="bg-video">
+					<video class="bg-video__content" autoplay muted loop>
+						<source src="img/video.mp4" type="video/mp4" />
+						<source src="img/video.webm" type="video/webm" />
+					</video>
+				</div>
+				<div class="u-center-text u-margin-bottom-big">
+					<h1 class="heading-secondary">设 备 列 表</h1>
+				</div>
+
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img
+								src="img/nat-8.jpg"
+								alt="people on tour"
+								class="story__img"
+							/>
+							<figcaption class="story__caption">AC-TEM</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								球差校正透射电子显微镜
+							</h3>
+							<p class="paragraphy">
+								仪器型号：FEI Theims Z，Titan Cubed Themis G2300等 <br />
+								仪器用途：A、形貌观察：对各种材料内部微结构进行二维显微形貌观察，包括常见的粉末、纳米颗粒形貌和粒径观察；配合三维重构可以得到三维立体形貌；B、结构分析：利用选区电子衍射、高分辨透射图像、高分辨扫描透射图像等分析材料的结构C、成分分析：配合能谱仪可以对样品元素做点、线、面、体分布分析，可以得到原子分辨率的元素面分布图像
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img
+								src="img/nat-9.jpg"
+								alt="people on tour"
+								class="story__img"
+							/>
+							<figcaption class="story__caption">TEM</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								透射电子显微镜
+							</h3>
+							<p class="paragraphy">
+								仪器型号：FEI Tecnai F20, TF30，JEOL JEM 2100F，FEI Talos
+								F200X等 <br />
+								仪器用途：可以看到在光学显微镜下无法看清的小于0.2um的细微结构，这些结构称为亚显微结构或超微结构。要想看清这些结构，就必须选择波长更短的光源，以提高显微镜的分辨率。1932年Ruska发明了以电子束为光源的透射电子显微镜，电子束的波长要比可见光和紫外光短得多，并且电子束的波长与发射电子束的电压平方根成反比，也就是说电压越高波长越短。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p3.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">SEM</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								扫描电子显微镜
+							</h3>
+							<p class="paragraphy">
+								仪器型号：电镜型号日立SU8010、蔡司MERLIN
+								Compact、蔡司sigma300EDS型号ixrf、EDAX等 <br />
+								仪器用途：扫描电子显微镜的制造是依据电子与物质的相互作用。当一束高能的入射电子轰击物质表面时，被激发的区域将产生二次电子、俄歇电子、特征x射线和连续谱X射线、背散射电子、透射电子，以及在可见、紫外、红外光区域产生的电磁辐射。同时，也可产生电子-空穴对、晶格振动
+								（声子）、电子振荡
+								（等离子体）。原则上讲，利用电子和物质的相互作用，可以获取被测样品本身的各种物理、化学性质的信息，如形貌、组成、晶体结构、电子结构和内部电场或磁场等。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p4.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">XPS</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								X射线光电子能谱仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：Thermo Kalpha；Thermo ESCALAB 250XI等 <br />
+								仪器用途：XPS的原理是用X射线去辐射样品，使原子或分子的内层电子或价电子受激发射出来。被光子激发出来的电子称为光电子。可以测量光电子的能量，以光电子的动能/束缚能 binding
+								energy,(Eb=hv光能量-Ek动能-W功函数)为横坐标，相对强度（脉冲/s）为纵坐标可做出光电子能谱图。可以测样品表面的元素成分、化学态和分子结构。即可以进行物质定性分析，物质定量分析和元素化学态分析。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p5.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">TOC</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								总有机碳分析仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：GE3000,RT1901A等 <br />
+								仪器用途：OC分析仪，是将水溶液中的总有机碳氧化为二氧化碳，并且测定其含量。利用二氧化碳与总有机碳之间碳含量的对应关系，从而对水溶液中总有机碳进行定量测定。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p6.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">XRD</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								X射线衍射仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：X'Pert PRO MPD、布鲁克D8、Ultima IV、smartlab等 <br />
+								仪器用途：X射线衍射仪是利用衍射原理，精确测定物质的晶体结构，结构及应力，精确的进行物相分析，定性分析，定量分析。广泛应用于冶金、石油、化工、科研、材料等领域。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p7.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">FT-IR</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								傅里叶红外光谱
+							</h3>
+							<p class="paragraphy">
+								仪器型号：Nicolet iS 10; Nexus 670; Nicolet Nexus 470型;
+								Perkin-Elmer Spectrum GX型; Bruker Vertex 70; Nicolet iS 50等
+								<br />
+								仪器用途：一种基于红外光谱的分析法，以迈克尔干涉仪分光，并对干涉函数做傅里叶变换得到红外光谱，从而对物质进行分析检测。其优点为信噪比好，分辨率高，输出能量大，光谱范围宽等。广泛应用于化学，物理学，生物学以及环境科学领域中化合物的测定，特别是有机化合物的分析测定。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p8.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">TG-DSC</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">同步热分析</h3>
+							<p class="paragraphy">
+								仪器型号：TA，耐驰，PE，梅特勒等 <br />
+								仪器用途：同步热分析将热重分析 TG 与差热分析 DTA 或差示扫描量热
+								DSC
+								结合为一体，在同一次测量中利用同一样品可同步得到热重与差热信息。相比单独的
+								TG 或 DSC
+								测试，具有如下显著优点：消除称重量、样品均匀性、升温速率一致性、气氛压力与流量差异等因素影响，TG
+								与 DTA/DSC
+								曲线对应性更佳。根据某一热效应是否对应质量变化，有助于判别该热效应所对应的物化过程（如区分熔融峰、结晶峰、相变峰与分解峰、氧化峰等）。在反应温度处知道样品的当前实际质量，有利于反应热焓的准确计算。广泛应用于陶瓷、玻璃、金属/合金、矿物、催化剂、含能材料、塑胶高分子、涂料、医药、食品等各种领域。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p9.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">HOT Disk</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">导热系数仪</h3>
+							<p class="paragraphy">
+								仪器型号：Hot Disk TPS 2500S <br />
+								仪器用途：Hot
+								disk依据瞬态平面热源法，可直接测得样品的导热系数，导热系数测量范围：0.005-500
+								W/mK 温度范围：-20-100℃
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p10.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">LFA</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">激光导热仪</h3>
+							<p class="paragraphy">
+								仪器型号：NETZSCH LFA 457 MicroFlash/NETZSCH LFA 467等 <br />
+								项目简介：导热系数=热扩散*比热*密度 a. LFA 427/457:
+								直接测得厚度方向热扩散系数，尺寸为直径12.7mm或者方形10*10mm（尽可能到9.7-9.9mm的边长，大于10mm放不进去）的样品通过比较法得到样品比热，计算得到导热系数（需要自行提供样品的密度和厚度）；
+								b.
+								LFA467：直接测得水平方向热扩散系数，需通过蓝宝石法测试得到比热（额外收费），计算得到导热系数；面内热扩散测试适合高导超薄样品，不适合低导样品。c.
+								测量范围 导热范围：0.1-2000 W/mK
+								测试温度范围：LFA427——室温-1300度；LFA 457—— 室温-800℃ ；LFA 467—— -80-400℃
+								测量气氛：惰性（氮气，氩气）
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p11.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">GHH</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								万能材料试验机
+							</h3>
+							<p class="paragraphy">
+								仪器型号：GHH <br />
+								用途:可进行高低温条件下的拉伸(室温-1200°)(低温需详细沟通)
+								万能材料试验机适用于各种各种金属、非金属材料，如金属薄片、塑料薄膜、复合薄膜、镀铝膜、铝箔、片材、工程塑料、橡胶、皮革、无纺布、编织袋、打包带等试样的拉伸、剥离、热封、撕裂、穿刺、压缩、弯曲、剪切等试验，以及一些产品的特殊试验，还可实现恒应力、恒应变等多闭环试验，配置特殊装置后还能完成扭转等试验项目。可根据GB、JIS、ASTM、DIN等标准自动求出拉抗强度、屈服强度、断裂伸长率、定伸长应力、定应力伸长、弹性模量等参数
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p12.png" alt="people on tour" class="story__img" />
+							<!-- <figcaption class="story__caption">HOT Disk</figcaption> -->
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								残余应力测试仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：理学SmartLab；Proto-LXRD等 <br />
+								仪器用途：残余应力测试仪其原理是基于著名的布拉格方程2dsinθ=nλ
+								：即一定波长的X射线照射到晶体材料上，相邻两个原子面衍射时的X射线光程差正好是波长的整数倍。通过测量衍射角变化Δθ从而得到晶格间距变化Δd，根据胡克定律和弹性力学原理，计算出材料的残余应力
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p13.png" alt="people on tour" class="story__img" />
+							<!-- <figcaption class="story__caption">HOT Disk</figcaption> -->
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">纳米压痕仪</h3>
+							<p class="paragraphy">
+								仪器型号：Hysitron TI 950, UNHT、Bruker Hysitron TI980等 <br />
+								仪器用途：纳米压痕仪主要用于微纳米尺度薄膜材料的硬度与杨氏模量测试，测试结果通过力与压入深度的曲线计算得出，无需通过显微镜观察压痕面积
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p14.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">HPLC</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">高效液相</h3>
+							<p class="paragraphy">
+								仪器型号：JASCO LC-4000<br />
+								仪器主要参数： 二元低压泵：流量准度±1%或0.002 mL/min
+								最大使用压力：70 MPa 自动进样器：样品盘数量60个
+								柱温箱：温度控制范围-15~80℃
+								二极管阵列检测器：测定波长范围：190~900 nm
+								圆二色检测器：测定波长范围：200~460 nm   应用领域：
+								（1）液相色谱在物质的定性以及定量分析方面提供了高效的解决方案；
+								（2）该液相色谱配有多种手性色谱柱，在手性化合物的分离分析上，特别是手性农药和手性药物具有良好的应用；
+								（3）该液相色谱仪搭载圆二色检测器，可测量分离组分的圆二色谱图，在具有光学活性物质的分离分析方面有着突出的使用优势，例如药物、天然产物等众多领域有突出的优势
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p15.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">CD</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								圆二色光谱仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：JASCO J-1700 <br />
+								仪器主要参数： 波长范围：163~2500 nm 波长分辨率：0.025 nm
+								CD范围：±8000 mdeg CD分辨率：0.00001 mdeg
+								光源：氙灯，钨灯和汞灯，三光源自动切换
+								单色仪：双偏振棱镜+光栅分光系统，光路具有自动校准功能
+								检测器：光电倍增管（PMT）检测器和InGaAs检测器，检测器自动切换
+								具有圆二色（CD）和线二色（LD）同步测试功能
+								帕尔贴控温装置：温度范围-40~130℃
+								固体积分球装置：可以测试固体粉末、薄膜、凝胶的漫反射和漫透射CD谱
+								  应用领域：
+								（1）在生物大分子结构，相互之间的作用以及动力学方面，有非常广泛的应用，例如蛋白质构象研究，蛋白质折叠研究，DNA/RNA相互作用以及酶动力学研究等；
+								（2）在结构化学方面有广泛的运用，例如配位化学研究，光活性物质的构型鉴定等，尤其是随着量子化学计算的发展，通过全CD谱图模拟对CD谱图进行解析，能够实现普适的手性化合物分子绝对构型的鉴定；
+								（3）在药物定量分析方面也能够起到很好的作用，特别是光学活性物质的纯度测试等；
+								（4）此外，电子圆二色谱还在天然产物化学、材料科学等方面有广泛应用。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p16.png" alt="people on tour" class="story__img" />
+							<figcaption class="story__caption">CPL</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								圆偏振荧光光谱仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：JASCO CPL-300 <br />
+								仪器主要参数： 波长范围：250~850 nm 波长准确性：±0.5 nm
+								分辨率：0.00001 mdeg 荧光接收方式：180°水平接收
+								扫描方式：连续扫描，步进扫描，自动响应扫描 光源采用150
+								W无臭氧氙灯，无需氮气吹扫 帕尔贴控温装置：温度范围-40~130 ℃
+								固体样品装置：可以测试固体粉末、薄膜、凝胶的CPL光谱   应用领域：
+								（1）主要用于与金属发光配合物、有机发光材料的合成和其光致发光（PL）、有机电致发光（EL）性能的相关研究工作；涉及配位化学、有机合成化学、材料化学、晶体化学等众多相关学科研究领域；
+								（2）该仪器有用于研究具有光学活性的物质在激发态下的光学活性，尤其是具有荧光性能的手性纳米材料； 
+								随着圆偏振发光材料在液晶显示器背光源、光电信息储存和处理等方面重要的应用价值，圆偏振荧光光谱仪在该领域也具有重要的应用。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p17.png" alt="people on tour" class="story__img" />
+							<!-- <figcaption class="story__caption">HOT Disk</figcaption> -->
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								电感耦合等离子体光谱仪
+							</h3>
+							<p class="paragraphy">
+								仪器型号：安捷伦7850 <br />
+								仪器用途：可提供７０多种元素的定性定量分析，具体可测元素见下面图片，ICP－OES适用于测定浓度为ｐｐｍ（ｕｇ／ｍｌ）级别的样品，ICP－MS适用于测定浓度为ｐｐｂ（ｎｇ／ｍｌ）级别的样品。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p18.png" alt="people on tour" class="story__img" />
+							<!-- <figcaption class="story__caption">HOT Disk</figcaption> -->
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								原位电化学红外
+							</h3>
+							<p class="paragraphy">
+								仪器型号：Nicolet-is50 <br />
+								操作流程:采用以液氮冷却的ＭＣＴ－Ｂ为检测器的ＮｉｃｏｌｅｔｉＳ５０型ＦＴＩＲ光谱仪，测量原位ＦＴＩＲ光谱。ＣａＦ２棱镜作为红外窗口，在光谱分辨率为４ｍ—１条件下对每个光谱进行256次扫描。
+								注:
+								不同催化条件操作测试流程不一,建议与测试老师详细沟通测试细节,最好提供相应文献以及完整的测试步骤.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/p19.png" alt="people on tour" class="story__img" />
+							<!-- <figcaption class="story__caption">HOT Disk</figcaption> -->
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small">
+								原位电化学XRD/ DEMS
+							</h3>
+							<p class="paragraphy">
+								注意事项：
+								组装原位电池时，负极材料涂在不锈钢网或者铝箔上，正极材料涂覆在Al箔上，测试数据中会有集流体基底的峰，因此要求样品具有一定的结晶度XRD信号较好；如果粉末样品结晶度不好的话，其衍射峰就会被基底的峰掩盖。另外，原位样品池外面还有一个Be片，Be和BeO的峰一般比较强，但是不会影响数据分析（可参考下面的案例）；
+								<br />
+								1.原位池中极片的负载量会达到6-8
+								mg以上以提高信号强度，因此需要确认自己材料在这个载量下，在普通纽扣电池中能达到什么水平，包括循环稳定性和比容量；
+								2.测试开路状态下的原位电池，启动电池后，XRD连续扫描；
+								3.数据格式为TXT或者RAW，峰可能会整体偏移一点，原位数据客户需要根据起始物相标准PDF卡片自己进行校正；
+								4.此外，只要装了原位电池，在未开始测试充放电，Be窗不坏的情况下，可以使用2-3次，所以如果第一次原位池不出峰，可以再重复1-2次，如果还是不行，可认定样品原因实验失败。
+							</p>
+						</div>
+						<div
+							class="storyImg"
+							style="
+								display: flex;
+								justify-content: center;
+								flex-direction: column;
+								align-items: center;
+							"
+						>
+							<img src="img/19-0.png" alt="" style="width: 40rem" />
+							<img src="img/19-1.png" alt="" style="width: 40rem" />
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="u-margin-top-huge u-center-text">
+          <a href="#" class="btn-text">Read all stories &rarr;</a>
+        </div> -->
+			</section>
+
+			<!-- <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h1 class="heading-secondary">
+                    Start Bookings now
+                  </h1>
+                </div>
+
+                <div class="form__group">
+                  <input class="form__input" type="text" placeholder="Full Name" id="name" required>
+                  <label class="form__label" for="name">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input class="form__input" type="email" placeholder="Email Address" id="email" required>
+                  <label class="form__label" for="email">Email adress</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio">
+                    <input type="radio" class="form__radio-input" id="small" name="size" required>
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+                  <div class="form__radio">
+                    <input type="radio" class="form__radio-input" id="large" name="size" required>
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Large tour group
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Next step</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </section> -->
+		</main>
+
+		<footer class="footer">
+			<div class="footer__logo-box">
+				<picture class="footer__logo">
+					<source
+						srcset="
+							./img/logo-green-small-1x.png,
+							./img/logo-green-small-2x.png 2x
+						"
+						media="(max-width: 37.5em)"
+					/>
+					<img
+						srcset="./img/logo-green-1x.png, ./img/logo-green-2x.png 2x"
+						src="./img/logo-green-2x.png"
+						alt="website logo"
+					/>
+				</picture>
+			</div>
+			<div class="row">
+				<div class="col-1-of-2">
+					<div class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#" class="footer__link">材料测试</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">材料加工</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">标准检测</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">材料工艺</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">原位电化学</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-1-of-2">
+					<p class="footer__copyright">
+						山东研理检测公司
+						<br />
+						地址：山东省聊城市聊城大学高新科技楼 <br />联系人： 朱老师<br />联系方式：15106840772
+					</p>
+					<div style="border-top: 1px solid #777">
+						<img
+							style="width: 100px; margin-top: 2.5rem"
+							src="img/code.png"
+							alt="独具匠心，科创同行"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div class="row"></div>
+		</footer>
+
+		<!-- <div class="popup" id="popup">
+			<div class="popup__content">
+				<a href="#section-tours" class="popup__close">&times;</a>
+				<div class="popup__img-box">
+					<img src="/img/nat-8.jpg" alt="tour photo" class="popup__img" />
+					<img src="/img/nat-9.jpg" alt="tour photo" class="popup__img" />
+				</div>
+				<div class="popup__book-box">
+					<h1 class="heading-secondary u-margin-bottom-small">
+						Start Booking Now
+					</h1>
+					<h2 class="heading-tertiary u-margin-bottom-small">
+						IMPORTANT – PLEASE READ THESE TERMS BEFORE BOOKING
+					</h2>
+					<p class="popup__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus
+						imperdiet nulla malesuada pellentesque elit eget gravida cum sociis.
+						Senectus et netus et malesuada fames ac. Odio eu feugiat pretium
+						nibh ipsum consequat. Tristique senectus et netus et malesuada fames
+						ac turpis egestas. Tincidunt tortor aliquam nulla facilisi cras
+						fermentum odio. Viverra accumsan in nisl nisi scelerisque eu
+						ultrices vitae. Sollicitudin nibh sit amet commodo. Aenean euismod
+						elementum nisi quis eleifend quam. Dapibus ultrices in iaculis nunc
+						sed augue lacus viverra vitae. Vitae congue mauris rhoncus aenean
+						vel elit scelerisque. Aliquet bibendum enim facilisis gravida neque
+						convallis a cras semper. Morbi tempus iaculis urna id volutpat lacus
+						laoreet non curabitur. Eget lorem dolor sed viverra ipsum nunc
+						aliquet.
+					</p>
+					<a href="#" class="btn btn--green">Book Now</a>
+				</div>
+			</div>
+		</div> -->
+	</body>
+</html>
